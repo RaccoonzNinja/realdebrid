@@ -1,0 +1,14 @@
+{
+  "name": "realdebrid",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.8",
+    "angular-route": "~1.4.8",
+    "angular-safeapply": "~1.0.4"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "RealDebrid",
+  "version": "0.1.0",
+  "main": "index.html",
+  "chromium-args": "--disable-setuid-sandbox",
+  "window": {
+    "width": 800,
+    "height": 600,
+    "toolbar": false,
+    "show": false,
+    "show_in_taskbar": false
+  },
+  "dependencies": {
+    "realdebrid": "^0.1.1"
+  }
+}
