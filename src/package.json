@@ -11,6 +11,9 @@
     "show_in_taskbar": false
   },
   "dependencies": {
-    "realdebrid": "^0.1.1"
+    "jfs": "^0.2.6",
+    "request": "^2.67.0",
+    "touch": "^1.0.0",
+    "tough-cookie-filestore": "0.0.1"
   }
 }

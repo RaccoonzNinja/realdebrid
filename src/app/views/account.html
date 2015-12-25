@@ -1,0 +1,6 @@
+<div>{{message}}</div><br>
+<form ng-if="showForm">
+  Username: <input type="text" ng-model="credentials.username" autofocus><br>
+  Password: <input type="password" ng-model="credentials.password"><br>
+  <input type="submit" ng-click="submitForm()">
+</form>

@@ -1,23 +1,9 @@
-gui = require 'nw.gui'
-app = gui.App
-win = gui.Window.get()
+menus = require './components/menus'
+windowBehavior = require './components/window-behavior'
 
-showWindow = ->
-  win.setShowInTaskbar true
-  win.show()
-  win.focus()
-
-hideWindow = ->
-  win.setShowInTaskbar false
-  win.hide()
-
-menu = new gui.Menu type: 'menubar'
-menu.createMacBuiltin require('./package').name
-win.menu = menu
-
-app.on 'open', showWindow
-app.on 'reopen', showWindow
-showWindow()
+menus.loadMenuBar()
+windowBehavior.set()
+windowBehavior.restoreWindowState()
 
 # win.on('close', function () {
 #   hideWindow();

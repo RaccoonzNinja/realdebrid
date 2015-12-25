@@ -1,7 +1,7 @@
 pkg = require './package'
 gulp = require 'gulp'
-shelljs = require 'shelljs'
 $ = require('gulp-load-plugins')()
+shelljs = require 'shelljs'
 spawn = require('child_process').spawn
 psTree = require 'ps-tree'
 
